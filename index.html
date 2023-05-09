@@ -4,49 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-      .container {
-        margin-left: 4rem;
-        margin-top: 4rem;
-      }
-      .container div {
-        width: 70px;
-        height: 60px;
-        border: 1px solid black;
-        display: inline-block;
-      }
 
-    .container div:nth-child(even){
-      border: 2px solid black;
-    }
-
-    .container div:nth-child(odd) span:nth-child(even){
-      color: green;
-    }
-
-    .container div:nth-child(2) span:last-of-type{
-      color: blue;
-    }
-
-    .container div:nth-child(6) span:not(span:last-of-type){
-      color: yellow;
-    }
-
-    .container div{
-      position: relative;
-    }
-
-    .container span:nth-child(1){
-      position: absolute;
-      top: 60px;
-      left: 25px;
-    }
-
-
-
-
-    </style>
   </head>
   <body>
     <div class="container">
